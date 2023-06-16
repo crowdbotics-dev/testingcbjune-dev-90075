@@ -2,7 +2,7 @@ export const globalOptions = {
   "name": "testingcbjune-dev-90075",
   "url": "https://testingcbjune-dev-90075.botics.co",
   "api": "https://testingcbjune-dev-90075.botics.co/api/v1",
-  "initialRoute": "Untitled1"
+  "initialRoute": "Untitled3"
 };
 export const modulesOptions = {
   "@modules/app-menu": {

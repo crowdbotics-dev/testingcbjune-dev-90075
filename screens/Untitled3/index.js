@@ -10,10 +10,10 @@ const Untitled3 = () => {
     dispatch(api_v1_signup_create());
   }, []);
   return <SafeAreaView style={styles.safeArea}>
-        <ScrollView contentContainerStyle={{
-      backgroundColor: '#f0f0f1',
+      <ScrollView contentContainerStyle={{
+      backgroundColor: "#f0f0f1",
       padding: 10,
-      position: 'relative',
+      position: "relative",
       flex: 1
     }}></ScrollView>
     </SafeAreaView>;
@@ -21,7 +21,7 @@ const Untitled3 = () => {
 
 const styles = StyleSheet.create({
   safeArea: {
-    height: '100%'
+    height: "100%"
   }
 });
 export default Untitled3;

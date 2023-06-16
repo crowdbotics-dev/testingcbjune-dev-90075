@@ -1,4 +1,4 @@
-import { api_v1_signup_create } from "../../store/testingcbjunedevAPI/signups.slice.js";
+import { api_v1_login_create } from "../../store/testingcbjunedevAPI/authTokens.slice.js";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import React from "react";
@@ -7,7 +7,7 @@ import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 const Untitled3 = () => {
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(api_v1_signup_create());
+    dispatch(api_v1_login_create());
   }, []);
   return <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={{
